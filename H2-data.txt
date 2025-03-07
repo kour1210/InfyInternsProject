@@ -1,0 +1,48 @@
+INSERT INTO MENTOR (mentor_id, mentor_name, number_of_projects_mentored) 
+VALUES (1001, 'John', 1);
+
+INSERT INTO MENTOR (mentor_id, mentor_name, number_of_projects_mentored) 
+VALUES (1002, 'Jane', 2);
+
+INSERT INTO MENTOR (mentor_id, mentor_name, number_of_projects_mentored) 
+VALUES (1003, 'Emily', 1);
+
+INSERT INTO MENTOR (mentor_id, mentor_name, number_of_projects_mentored) 
+VALUES (1004, 'Michael', 0);
+
+INSERT INTO MENTOR (mentor_id, mentor_name, number_of_projects_mentored) 
+VALUES (1005, 'Sophia', 2);
+
+INSERT INTO MENTOR (mentor_id, mentor_name, number_of_projects_mentored) 
+VALUES (1006, 'David', 3);
+
+
+
+
+INSERT INTO PROJECT (project_name, idea_owner, release_date, mentor_id) 
+VALUES ('E-commerce Platform', 'Alice', '2024-01-15', 1001);
+
+INSERT INTO PROJECT (project_name, idea_owner, release_date, mentor_id) 
+VALUES ('Inventory Management System', 'Bob', '2024-03-10', 1001);
+
+INSERT INTO PROJECT (project_id, project_name, idea_owner, release_date, mentor_id) 
+VALUES ('Online Learning Platform', 'Alice', '2024-04-05', 1002);
+
+INSERT INTO PROJECT (project_name, idea_owner, release_date, mentor_id) 
+VALUES ('Hospital Management System', 'Eve', '2024-05-20', 1003);
+
+INSERT INTO PROJECT (project_name, idea_owner, release_date, mentor_id) 
+VALUES ('Social Media Analytics', 'Tom', '2024-06-01', NULL);
+
+
+
+{
+    "projectName": "AI Chatbot",
+    "ideaOwner": "Sophia",
+    "releaseDate": "2024-08-15",
+    "mentorDTO": {
+        "mentorId": 1003
+    }
+}
+
+
